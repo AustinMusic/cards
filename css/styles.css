@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+}
+.login {
+    width: 350px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 100px auto;
+}
+.login h1 {
+    text-align: center;
+    color: #5b6574;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(62,67,103,1.00);
+    color: #ffffff;
+}
+.login form input[type="password"], .login form input[type="text"] {
+    width: 290px;
+    height: 50px;
+    border: 1px solid #dee0e4;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.login form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #FFF8E8;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+    transition: background-color 0.2s;
+}
+.login form input[type="submit"]:hover {
+    background-color: #FFDD90;
+    transition: background-color 0.2s;
+}
+.forget {
+    width: 100%;
+    padding: 15px;
+    background-color: rgba(62,67,103,1.00);
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 20px;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+.forget a {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.navbar {
+	background-color: #3E4367;
+}
+.nav-link {
+	color: #FFF8E8 !important;
+}
+.nav-link.active {
+	color: #FFDD90;
+}
+.navbar-toggler {
+	background-color: #FFF8E8;
+}
+.welcome {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	width: 170px;
+}
+.searchbox {
+    float: left;
+    width: 250px;
+    border: 5px solid #FFDD90; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 5px;
+    display: inline-block;
+}
+.jobinfo {
+	width: 400px;
+	height: 400px;
+	border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	border: 2px solid #3e4367;
+	margin: 5px;
+}

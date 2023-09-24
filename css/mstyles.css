@@ -1,0 +1,153 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100vh;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri;
+}
+.navbar {
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.mainpage {
+    margin-left: 15px;
+    margin-right: 15px;
+	margin-top: 65px;
+	height: calc(100% - 69px);
+}
+.navbar-dark {
+    background-color: #1e4959 !important;
+}
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:focus  {
+    color: rgba(251,251,251,0.75);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FFFFFF !important;
+}
+.btn-secondary, .btn-secondary:focus {
+	color: rgba(251,251,251,0.75);
+    background-color: #1e4959 !important;
+    border-color: #1e4959 !important;
+}
+.btn-secondary:active {
+	color: #FFFFFF !important;
+    background-color: #1e4959 !important;
+    border-color: #1e4959 !important;
+}
+.welcome {
+    float: right;
+    margin-right: 10px;
+    display: inline-block;
+}
+.d-flex {
+	justify-content: center;
+}
+.top {
+    display: block;
+    position: relative;
+    height: 50px;
+}
+.top h2{
+    text-align: center;
+    color: #1e4959;
+    font-family:"Calibri";
+    font-size: 18px;
+}
+.jobwindow {
+	width: 350px;
+	margin: 0px 10px 10px 0px;
+}
+.jobwindow .status1, .jobwindow .status2, .jobwindow .status15 {
+	border-radius: 19px 19px 0px 0px;
+	border-bottom: 0px;
+}
+.jobwindow .status3, .jobwindow .status14, .jobwindow .status16 {	
+	border-radius: 19px 19px 0px 0px;
+	border-bottom: 0px;
+}
+.jobwindow .status4, .jobwindow .status5, .jobwindow .status6, .jobwindow .status7, .jobwindow .status8, .jobwindow .status9, .jobwindow .status10, .jobwindow .status11, .jobwindow .status12, .jobwindow .status13, .jobwindow .status17 {
+	border-radius: 19px 19px 0px 0px;
+	border-bottom: 0px;	
+}
+.jobwindow a {
+	text-decoration: none;
+}
+.jobheader {	
+	line-height: 35px;
+	text-align: center;
+}
+.jobheader.status1, .jobheader.status2, .jobheader.status15 {
+	background-color: #3fb44f;
+	height: 35px !important;
+	color: #000000;
+	border-radius: 15px 15px 0px 0px;
+}
+.jobheader.status3, .jobheader.status14, .jobheader.status16 {
+	background-color: #8ec548;
+	height: 35px !important;
+	color: #000000;
+	border-radius: 15px 15px 0px 0px;
+}
+.jobheader.status4, .jobheader.status5, .jobheader.status6, .jobheader.status7, .jobheader.status8, .jobheader.status9, .jobheader.status10, .jobheader.status11, .jobheader.status12, .jobheader.status13, .jobheader.status17 {
+	background-color: #1e4959;
+	height: 35px !important;
+	color: #FFFFFF;
+	border-radius: 15px 15px 0px 0px;
+}
+.jobphoto {
+	width: 107px;
+	height: 108px !important;
+	float: left;
+	padding: 6px;
+	border-left: 2px groove #5B5959;
+}
+.jobphoto img {
+	height: 96px;
+	width: 96px;
+}
+.appdetails {
+	width: calc(100% - 108px);
+	height: 108px !important;
+	float: right;  
+	padding-top: 5px;
+    padding-right: 5px;
+	line-height: normal;
+	font-family: Calibri;
+	color: #1e4959;
+	border-right: 2px groove #5B5959;
+	white-space: nowrap;
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+.appadddet {
+	width: 100%;
+	line-height: normal;
+	font-family: Calibri;
+	padding: 0px 5px 5px;
+	color: #1e4959;
+	border-right: 2px groove #5B5959;
+	border-left: 2px groove #5B5959;
+	border-bottom: 2px groove #5B5959;
+	white-space: nowrap;
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+@media only screen and (max-width: 450px) {
+  .searchbox {
+    width: 200px;
+  }
+}
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav {
+		width: 100%;
+}
+}
