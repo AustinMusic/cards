@@ -1,0 +1,4935 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+	<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+		<Author>Michael Martino</Author>
+		<LastAuthor>Michael Martino</LastAuthor>
+		<Created>2018-03-26T16:40:42Z</Created>
+		<LastSaved>2018-03-26T17:37:25Z</LastSaved>
+		<Version>14.00</Version>
+	</DocumentProperties>
+	<OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+		<AllowPNG/>
+	</OfficeDocumentSettings>
+	<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+		<WindowHeight>10035</WindowHeight>
+		<WindowWidth>22995</WindowWidth>
+		<WindowTopX>480</WindowTopX>
+		<WindowTopY>45</WindowTopY>
+		<ProtectStructure>False</ProtectStructure>
+		<ProtectWindows>False</ProtectWindows>
+	</ExcelWorkbook>
+	<Styles>
+		<Style ss:ID="Default" ss:Name="Normal">
+			<Alignment ss:Vertical="Bottom"/>
+			<Borders/>
+			<Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+			<Interior/>
+			<NumberFormat/>
+			<Protection/>
+		</Style>
+		<Style ss:ID="s62">
+			<Alignment ss:Vertical="Center"/>
+		</Style>
+	</Styles>
+	<Worksheet ss:Name="Sheet1">
+		<Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="180" x:FullColumns="1" x:FullRows="1" ss:DefaultRowHeight="15">
+			<Column ss:AutoFitWidth="0" ss:Width="76.5"/>
+			<Column ss:AutoFitWidth="0" ss:Width="111"/>
+			<Column ss:AutoFitWidth="0" ss:Width="121.5"/>
+			<Column ss:AutoFitWidth="0" ss:Width="201.75"/>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">table</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">tablename</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">column</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">FieldName</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">FieldType</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">report</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Report Information</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">status</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Status</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">status</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getStatus</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">status</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">report</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Report Information</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">priority</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Priority</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">priority</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getPriority</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">priority</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">report</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Report Information</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">AssignedTo</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Assigned To</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">AssignedTo</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getAssigned</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">name</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">report</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Report Information</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">DueDate</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Due Date</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Date</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">report</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Report Information</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">OwnerID</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Owner</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">OwnerID</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getOwner</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">name</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">report</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Report Information</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">reportname</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Report Name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">report</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Report Information</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">CreatedBy</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Created By</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">CreatedBy</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getCreated</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">name</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">report</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Report Information</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">ModifiedBy</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Modified By</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">ModifiedBy</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getModified</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">name</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">report</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Report Information</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">FK_ReportTypeID</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">0</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Report Type</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">reporttype</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getReportType</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">rid</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">reportTypeName</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">reportTypeName</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">report</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Report Information</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">isDeleted</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">0</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">is Deleted</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">property_name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">address</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Address</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">city</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">City</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">county</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">County</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">county</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getCounties</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">county</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">county</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">state</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">State</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">zip_code</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Zip Code</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">propertytype</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Type</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">propertytype</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getPropertyType</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">ptid</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">propertytype</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">rid4</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">=</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">propertysubtype</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Subtype</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">propertysubtype</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getPropertySubType</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">ptsid</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">subtype</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">rid</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">=</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">4</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">msa</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">MSA</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">genmarket</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">General Market</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">genmarket</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getGeneralMarket</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">gmid</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">genmarket</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">genmarketdbname</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">submarkid</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Submarket</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">submarkid</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getGeneralSubMarket</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">sbmid</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">submarket</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">legal_desc</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Legal Description</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gross_land_acre</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Gross Land Acre</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">3</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gross_land_sf</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Gross Land SF</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">unusable_sf</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Unusable SF</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">unusable_acre</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Unusable Acre</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">3</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">unusable_desc</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Unusable Description</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">net_usable_sf</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Net Usable SF</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">net_usable_acre</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Net Usable Acre</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">3</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">net_usable_desc</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Net Usable Description</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">shape</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Shape</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">shape</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getShape</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">topography</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Topography</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">topography</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getTopography</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">utilities</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Utilities</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">utilities</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getUtilities</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">flood_plain</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Flood Plain</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">flood_plain</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getFloodPlain</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">orientation</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Orientation</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">orientation</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getOrientation</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">site_access</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Site Access</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">site_access</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getAccess</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">exposure</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Exposure</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">exposure</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getExposure</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">easement</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Easement</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">easement</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getEasement</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">easement_desc</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Easement Description</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">other_land_comments</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Land Comments</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">change_zoning</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Change in Zoning</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Boolean</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">zoning_juris</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Zoning Jurisdiction</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">zoning_code</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Zoning Code</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">zoning_desc</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Zoning Description</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">inc_far</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Include FAR</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Boolean</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">fut_zoning_code</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Future Zoning Code</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">fut_zoning_juris</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Future Zoning Jurisdiction</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">fut_zoning_desc</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Future Zoning Description</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">rezone_time</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Time of Rezoning</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">max_building_ht</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Max Building Height</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">floor_area_ratio</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Floor Area Ratio</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">max_floor_area</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Max Floor Area</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">traffic_count</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Traffic Count</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">traffic_date</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Traffic Date</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">inter_street</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Intersecting Street</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">rural_electricity</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Rural Electricity</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">rural_electricity</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getRurElec</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">well_septic</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Well Septic</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">well_septic</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getRurSeptic</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">municiple_sewer</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Municiple Sewer</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">municiple_sewer</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getRurSewer</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">municiple_water</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Municiple Water</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">municiple_water</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getRurWater</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">natural_gas</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Natural Gas</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">natural_gas</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getRurGas</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">telephone</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Telephone</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">telephone</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getRurPhone</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">cable_tv</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Cable TV</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">cable_tv</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getRurCable</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">proposed_building</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Proposed Building</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Boolean</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">ground_lease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Boolean</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">lat</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">0</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Latitude</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">16</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">property</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Property Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">lng</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">0</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Longitude</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">16</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">building</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Building Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">floor_1_gba</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Floor 1 GBA</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">building</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Building Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">floor_2_gba</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Floor 2 GBA</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">building</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Building Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">total_basement_gba</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Basement GBA</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">building</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Building Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">overall_gba</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Overall GBA</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">building</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Building Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">land_build_ratio_primary</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Land to Building Ratio</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">building</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Building Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">site_cover_primary</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Site Coverage Ratio</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">%</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">building</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Building Information</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gba_source</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">GBA Source</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_development_name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Development Name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_year_built</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Year Built</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_total_project</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Project Size</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_leased_land_sf</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Leased Land SF</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_building_footprint</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Building Footprint</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_anchor_tenants</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Anchor Tenants</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_major_tenants</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Major Tenants</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_status</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Ground Lease Status</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">gl_status</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getGLStat</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_start_date</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Lease Start Date</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Date</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_end_date</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Lease End Date</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Date</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_options_period</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Options Period</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_escalations</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Lease Escalations</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_length</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Length of Lease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_rent_begin</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Beginning Rent</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_rent_per_sf_land</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Rent / SF Land</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">2</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_rent_per_sf_footprint</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Rent / Building SF</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">2</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_fee_simple_equiv</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Fee Simple Equivilent Price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">2</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_fee_equiv_per_sf</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Fee Equivilent Price / SF</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">2</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">gl_rate_return</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Rate of Return</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">%</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">groundlease</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Ground Lease</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">adj_price_sf_pad</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Adjusted Price / SF Pad</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">2</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">property_appraised</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Property Appraised</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Boolean</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">mc_job</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Job Number</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">appraiser_name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Appraiser Name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">appraiser_name_two</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Appraiser 2 Name</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">grantor</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Grantor</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">grantee</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Grantee</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">land_alloc_sale</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Land Allocationv Sale</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Boolean</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">sale_price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Sale Price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">less_alloc_imp_price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Less Allocated Improvement Price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">improve_value_source</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Improved Value Source</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">alloc_land_value</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Allocated Land Value</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">prop_rights_conv</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Property Rights Conveyed</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">prop_rights_conv</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getpropRight</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">interest_conv</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Interest Conveyed</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">%</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">conv_doc_type</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Conveyance Document Type</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">conv_doc_rec_no</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Recording Number</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">record_date</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Recording Date</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Date</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">record_date_two</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Recording Date Two</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Date</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">sale_status</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Sale Status</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">sale_status</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getsaleStatus</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">market_time</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Marketing Time</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">current_use</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Current Use</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">proposed_use_change</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Proposed Use Change</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">proposed_use_change</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getUseChange</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">proposed_use_desc</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Proposed Use Description</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">fee_equiv_price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Fee Equivilent Price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">fee_simple_equiv_price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Fee Simple Equivilent Price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">cash_equiv_price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Cash Equivilent Price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">type_finance</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Type of Financing</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">list_price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">List Price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">list_price_change</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">List Price Change</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">%</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">confirm_by</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Confirm By</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">inspect_date</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Inspection Date</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Date</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">confirm_date</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Confirmation Date</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Date</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">fin_term_adj</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Financial Terms Adjustment</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">cond_sale_adj</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Condition of Sale  Adjustment</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">demo_cost</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Demolition Cost</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">onsite_extra_cost</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Onsite Extraordinary Cost</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">offsite_develop</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Offsite Development Cost</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">broker_cost</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Broker Cost</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">eff_sale_price_stab</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Effective Sale Price Stabalized</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">adj_price_comment</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Adjusted Price Comment</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">value_ffe</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Value of FF&amp;E</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">desc_ffe</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">FF&amp;E Description</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">adj_price_acre_gross</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Adjusted Price / Net Land Acre</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">adj_price_acre_net</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Adjusted Price / Gross Land Acre</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">adj_price_sf_gross</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Adjusted Price / Gross Land SF</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">2</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">adj_price_sf_net</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Adjusted Price / Net Land SF</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">2</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">adj_price_sf_far</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Adjusted Price / SF FAR</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">2</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">sale_comments</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Sale Comments</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">saletrans</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Transaction</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">conf_comments</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Confidential Comments</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">type_land_radio</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Land Type</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Boolean</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">type_residential_land</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Type of Residential land</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Dropdown</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">type_residential_land</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">getresLand</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">id</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">definition</Data>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">unit_lot_type</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Type of Lots or Units</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">no_lots</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Number of Lots</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">unadj_sale_price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Unadjusted Sale Price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">bulk_price_lot</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Bulk Lot Sale Price / Lot or Unit</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">lot_complete_date</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Lot Completion Date</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">fut_avg_home_price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Future Average Home Price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">finish_lot_size_sf</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Finished Lot Size (SF)</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">lot_home_price_ratio</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Lot to Home Price Ratio</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">unit_density_net_acre</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Unit Density per Net Acre</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">3</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">hard_cost_lot</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Hard Cost / Lot</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">off_site_imp</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">Offsite Improvements</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">fut_finish_size_range</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Future Finished Lot Size - Range</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">fut_finish_size_avg</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Future Finished Lot Size - Average</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">value_entitle</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Value of Entitlements</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">value_entitlement_lot</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Value of Entitlements / Lot</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">sale_price_lot_wo</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Sale Price / Lot or Unit w/o Ent.</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">INT</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">
+						<Row>
+							<Cell>
+								<Data ss:Type="String">$</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">1</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String">0</Data>
+							</Cell>
+							<Cell>
+								<Data ss:Type="String"/>
+							</Cell>
+						</Row>
+					</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">site_amenities</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Site Amenities</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+			<Row>
+				<Cell>
+					<Data ss:Type="String">resland</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Residential Land</Data>
+				</Cell>
+				<Cell ss:StyleID="s62">
+					<Data ss:Type="String">proj_fut_avg_finish_price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">1</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Projected Future Ave. Finished Lot Price</Data>
+				</Cell>
+				<Cell>
+					<Data ss:Type="String">Varchar</Data>
+				</Cell>
+			</Row>
+		</Table>
+		<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+			<PageSetup>
+				<Header x:Margin="0.3"/>
+				<Footer x:Margin="0.3"/>
+				<PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+			</PageSetup>
+			<Print>
+				<ValidPrinterInfo/>
+				<HorizontalResolution>1200</HorizontalResolution>
+				<VerticalResolution>1200</VerticalResolution>
+			</Print>
+			<Zoom>85</Zoom>
+			<Selected/>
+			<Panes>
+				<Pane>
+					<Number>3</Number>
+					<ActiveRow>163</ActiveRow>
+					<ActiveCol>3</ActiveCol>
+				</Pane>
+			</Panes>
+			<ProtectObjects>False</ProtectObjects>
+			<ProtectScenarios>False</ProtectScenarios>
+		</WorksheetOptions>
+	</Worksheet>
+	<Worksheet ss:Name="Sheet2">
+		<Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1" x:FullRows="1" ss:DefaultRowHeight="15"/>
+		<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+			<PageSetup>
+				<Header x:Margin="0.3"/>
+				<Footer x:Margin="0.3"/>
+				<PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+			</PageSetup>
+			<ProtectObjects>False</ProtectObjects>
+			<ProtectScenarios>False</ProtectScenarios>
+		</WorksheetOptions>
+	</Worksheet>
+	<Worksheet ss:Name="Sheet3">
+		<Table ss:ExpandedColumnCount="1" ss:ExpandedRowCount="1" x:FullColumns="1" x:FullRows="1" ss:DefaultRowHeight="15"/>
+		<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+			<PageSetup>
+				<Header x:Margin="0.3"/>
+				<Footer x:Margin="0.3"/>
+				<PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+			</PageSetup>
+			<ProtectObjects>False</ProtectObjects>
+			<ProtectScenarios>False</ProtectScenarios>
+		</WorksheetOptions>
+	</Worksheet>
+</Workbook>
