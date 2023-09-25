@@ -14,7 +14,7 @@
     <script type="text/javascript" src="../js/rbe_engine.js"></script>
     <script type="text/javascript" src="../js/aa_engine.js"></script>
 	<script type="text/javascript" src="../js/html2canvas.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtTb5qzQ9x50dKqqkfNrrypXRFYkw91NQ&v=3&libraries=places" async></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=GoogleKey&libraries=places" async></script>
     <script>
 		/*https://maps.googleapis.com/maps/api/js?key=AIzaSyAtTb5qzQ9x50dKqqkfNrrypXRFYkw91NQ&v=3&libraries=places async defer*/
         $( function () {
