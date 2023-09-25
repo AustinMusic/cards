@@ -195,7 +195,7 @@ $propertyIcon = array( '../img/mm_20_purple.png', '../img/mm_20_green.png', '../
 	<script type="text/javascript" src="../js/lightbox.js"></script>
 
 	<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?libraries=geometry,drawing&key=AIzaSyBmAGJsGHDcILArqDVkwl0co2yu8tHhx-g" defer></script>
+	<script src="https://maps.googleapis.com/maps/api/js?libraries=geometry,drawing&key=GoogleKey" defer></script>
 
 	<script>
 		(function (factory) {
