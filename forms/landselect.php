@@ -454,7 +454,7 @@ for ( $i = 1; $i < count( $data->Worksheet[ 0 ]->Table->Row ); $i++ ) {
 	<script type="text/javascript" src="../js/aa_searchEngine/aa_se_tpl_textarea.js"></script>
 	<script type="text/javascript" src="../js/aa_searchEngine/aa_se_tpl_inputBounds.js"></script>
 	<script type="text/javascript" src="../js/aa_map/aa_map_tpl_mapDrawingTools.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?libraries=geometry,drawing&key=AIzaSyAtTb5qzQ9x50dKqqkfNrrypXRFYkw91NQ&v=3" async></script>
+	<script src="https://maps.googleapis.com/maps/api/js?libraries=geometry,drawing&key=GoogleKey" async></script>
 	<script type='text/javascript'>
 		(function (factory) {
 				if (typeof define === "function" && define.amd) {
