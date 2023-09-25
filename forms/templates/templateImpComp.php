@@ -25,7 +25,7 @@
 <script type="text/javascript" src="../js/mapController.js"></script> 
 <script type="text/javascript" src="../js/improvedsalesController.js"></script> 
 <script type="text/javascript" src="../js/imageController.js"></script> 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmAGJsGHDcILArqDVkwl0co2yu8tHhx-g&libraries=places" defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=GoogleKey&libraries=places" defer></script>
 <script type="text/javascript">
 
 			$( function () {
