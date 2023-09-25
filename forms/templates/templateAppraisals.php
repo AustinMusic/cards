@@ -25,7 +25,7 @@
 <script type="text/javascript" src="../js/imageController.js"></script> 
 <script type="text/javascript" src="../js/appraisalsController.js"></script> 
 <script type="text/javascript" src="../js/lightbox.js"></script> 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmAGJsGHDcILArqDVkwl0co2yu8tHhx-g&libraries=places" defer></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=GoogleKey&libraries=places" defer></script>
 <script>
         $( function () {
             aa_engine = new _aa_engine();
